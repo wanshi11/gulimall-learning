@@ -1,0 +1,11 @@
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\controller\LoginController.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\vo\UserRegisterVo.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\feign\ThirdPartFeignService.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\config\GulimallSessionConfig.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\config\AuthWebConfig.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\feign\MemberFeignService.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\vo\UserLoginVo.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\vo\SocialUser.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\feign\fallback\MemberFallbackService.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\GulimallAuthServerApplication.java
+E:\workSoftWare\gitSpace\gulimall-learning\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\controller\OauthController.java

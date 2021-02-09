@@ -1,0 +1,14 @@
+io\niceseason\gulimall\auto\feign\fallback\MemberFallbackService.class
+io\niceseason\gulimall\auto\vo\UserRegisterVo.class
+io\niceseason\gulimall\auto\config\AuthWebConfig.class
+io\niceseason\gulimall\auto\feign\ThirdPartFeignService.class
+io\niceseason\gulimall\auto\controller\LoginController.class
+io\niceseason\gulimall\auto\controller\LoginController$1.class
+io\niceseason\gulimall\auto\controller\OauthController.class
+io\niceseason\gulimall\auto\GulimallAuthServerApplication.class
+io\niceseason\gulimall\auto\controller\OauthController$1.class
+io\niceseason\gulimall\auto\vo\UserLoginVo.class
+io\niceseason\gulimall\auto\feign\MemberFeignService.class
+io\niceseason\gulimall\auto\config\GulimallSessionConfig.class
+io\niceseason\gulimall\auto\vo\SocialUser.class
+io\niceseason\gulimall\auto\controller\OauthController$2.class

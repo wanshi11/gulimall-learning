@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2209502e-55bf-4c8c-a68a-47e9b0b165ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/io/niceseason/common/constraints/ListValueConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/io/niceseason/common/constraints/ListValueConstraintValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/io/niceseason/common/utils/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/io/niceseason/common/utils/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/io/niceseason/common/xss/HTMLFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/io/niceseason/common/xss/HTMLFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -44,9 +47,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallCartApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RenrenApplication">
     <configuration name="GulimallAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-auth-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.niceseason.gulimall.auto.GulimallAuthServerApplication" />
@@ -103,6 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GulimallSeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-seckill" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.niceseason.gulimall.seckill.GulimallSeckillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-third-party" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.niceseason.gulimall.third.GulimallThirdPartyApplication" />
@@ -130,7 +147,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -149,12 +176,69 @@
       <updated>1612448689543</updated>
       <workItem from="1612448694798" duration="2820000" />
       <workItem from="1612454524245" duration="308000" />
-      <workItem from="1612749829486" duration="941000" />
+      <workItem from="1612749829486" duration="3041000" />
+      <workItem from="1612794771153" duration="67000" />
+      <workItem from="1612794866202" duration="8370000" />
     </task>
+    <task id="LOCAL-00001" summary="11">
+      <created>1612796923962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612796923962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="3" key="#Notifications" timestamp="1612749847965">
@@ -165,34 +249,66 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="463" y="36" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.680@0.0.1280.680" timestamp="1612449648614" />
+    <state x="215" y="0" key="CommitChangelistDialog2" timestamp="1612796922964">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="215" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612796922964" />
     <state x="398" y="99" key="FileChooserDialogImpl" timestamp="1612750090651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="398" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1612750090651" />
-    <state width="1281" height="182" key="GridCell.Tab.0.bottom" timestamp="1612750518779">
+    <state width="876" height="235" key="GridCell.Tab.0.bottom" timestamp="1612868802324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="182" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612750518779" />
-    <state width="1281" height="182" key="GridCell.Tab.0.center" timestamp="1612750518779">
+    <state width="876" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state width="876" height="235" key="GridCell.Tab.0.center" timestamp="1612868802324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="182" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612750518779" />
-    <state width="1281" height="182" key="GridCell.Tab.0.left" timestamp="1612750518779">
+    <state width="876" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state width="876" height="235" key="GridCell.Tab.0.left" timestamp="1612868802324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="182" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612750518779" />
-    <state width="1281" height="182" key="GridCell.Tab.0.right" timestamp="1612750518779">
+    <state width="876" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state width="876" height="235" key="GridCell.Tab.0.right" timestamp="1612868802324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="182" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612750518779" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1612449366997">
+    <state width="876" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state width="876" height="235" key="GridCell.Tab.1.bottom" timestamp="1612868802324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612449366997" />
-    <state x="370" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1612749831250">
+    <state width="876" height="235" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state width="876" height="235" key="GridCell.Tab.1.center" timestamp="1612868802324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="370" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1612749831250" />
+    <state width="876" height="235" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state width="876" height="235" key="GridCell.Tab.1.left" timestamp="1612868802324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="876" height="235" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state width="876" height="235" key="GridCell.Tab.1.right" timestamp="1612868802324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="876" height="235" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1612868802324" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1612796754540">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612796754540" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1612796926465">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612796926465" />
+    <state x="370" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1612795004163">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="370" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1612795004163" />
     <state x="416" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1612454524984" />
+    <state x="327" y="78" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1612796830350">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="327" y="78" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1612796830350" />
+    <state x="28" y="0" key="new project wizard" timestamp="1612796768593">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1612796768593" />
   </component>
 </project>
