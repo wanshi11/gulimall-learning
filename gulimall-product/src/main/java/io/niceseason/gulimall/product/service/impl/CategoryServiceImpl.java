@@ -59,8 +59,10 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
     @Override
     public List<CategoryEntity> listWithTree() {
+        //查询全部
         List<CategoryEntity> entities = baseMapper.selectList(null);
         List<CategoryEntity> collect = entities.stream()
+                 //父分类的ID都是0
                 .filter(item->item.getParentCid()==0)
                 .map(menu->{
                     menu.setChildren(getChildrens(menu,entities));
@@ -75,6 +77,8 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
     @Override
     public void removeMenuByIds(List<Long> asList) {
+        //TODO  1.检查当前删除的菜单，是否被别的地方引用
+
         baseMapper.deleteBatchIds(asList);
     }
 
@@ -267,6 +271,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         }
     }
 
+    //递归获取当前菜单的子菜单
     private List<CategoryEntity> getChildrens(CategoryEntity categoryEntity, List<CategoryEntity> entities) {
         List<CategoryEntity> collect = entities.stream()
                 .filter(item -> item.getParentCid() == categoryEntity.getCatId())

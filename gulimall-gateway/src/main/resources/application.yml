@@ -66,7 +66,7 @@ spring:
           predicates:
             - Path=/api/**
           filters:
-            - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}
+            - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}   #路径重写
 
         #将主机地址为search.gulimall.com转发至gulimall-search
         - id: gulimall_serach_host

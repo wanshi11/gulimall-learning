@@ -7,10 +7,10 @@ spring:
     hikari:
       max-lifetime: 50000
 
-#  cloud:
-#      nacos:
-#        discovery:
-#          server-addr: #nacos注册中心地址
+  cloud:
+      nacos:
+        discovery:
+          server-addr: 127.0.0.1:8848
 #      # 文件上传秘钥
 #      alicloud:
 #        access-key: #
@@ -58,9 +58,9 @@ mybatis-plus:
 #    session:
 #      timeout: 30m
 #
-#logging:
-#  level:
-#    io.niceseason.gulimall.product.dao: error
+logging:
+  level:
+    io.niceseason.gulimall.product.dao: debug
 #
 # 自定义线程池参数
 gulimall:

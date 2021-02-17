@@ -58,9 +58,9 @@ mybatis-plus:
 #    session:
 #      timeout: 30m
 #
-#logging:
-#  level:
-#    io.niceseason.gulimall.product.dao: error
+logging:
+  level:
+    io.niceseason.gulimall.product.dao: debug
 #
 # 自定义线程池参数
 gulimall:
